@@ -1,4 +1,4 @@
-echo 'import java.util.Scanner;
+import java.util.Scanner;
 
 public class Calc {
     public static void main(String[] args) {
@@ -8,6 +8,7 @@ public class Calc {
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
         System.out.println("Sum: " + (a + b));
+        System.out.println("Multiplication: " + (a * b));
         sc.close();
     }
-}'
+}
