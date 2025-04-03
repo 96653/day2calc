@@ -9,14 +9,12 @@ public class Calc {
         int b = sc.nextInt();
         System.out.println("Sum: " + (a + b));
         System.out.println("Multiplication: " + (a * b));
-<<<<<<< HEAD
+
         sc.close();
     }
 }
-=======
         System.out.println("Subtraction: " + (a - b));  // New subtraction feature
         sc.close();
     }
 }
 
->>>>>>> 6b43bbc (adding substraction code)
